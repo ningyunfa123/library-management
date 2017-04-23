@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="cn.ecust.management.library.DAO.studentDAO" table="Studentinfo">
+    <id name="stuid" column="stuid">
+        <generator class="cn.ecust.management.library.DAO.studentDAO"></generator>
+    </id>
+    <property name="stuName" column="stuname"></property>
+    <property name="stuGender" column="stugender"></property>
+    <property name="stuCard" column="stuCard"></property>
+    <property name="stuAge" column="stuage"></property>
+    </class>
+</hibernate-mapping>
