@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.library.management.cn.ecust.management.library.DAO.BookDAO" table="Bookinfo">
+        <id name="bid" column="bid">
+            <generator class="com.library.management.cn.ecust.management.library.DAO.BookDAO"></generator>
+        </id>
+        <property name="bookName" column="bookName"></property>
+        <property name="bookAuthor" column="bookAuthor"></property>
+        <property name="bookPublished" column="bookPublished"></property>
+        <property name="publishYear" column="publishYear"></property>
+    </class>
+</hibernate-mapping>

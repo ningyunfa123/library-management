@@ -3,9 +3,9 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="cn.ecust.management.library.DAO.studentDAO" table="Studentinfo">
+    <class name="com.library.management.cn.ecust.management.library.DAO.StudentDAO" table="Studentinfo">
     <id name="stuid" column="stuid">
-        <generator class="cn.ecust.management.library.DAO.studentDAO"></generator>
+        <generator class="com.library.management.cn.ecust.management.library.DAO.StudentDAO"></generator>
     </id>
     <property name="stuName" column="stuname"></property>
     <property name="stuGender" column="stugender"></property>

@@ -1,4 +1,4 @@
-package ecust.Entity;
+package com.library.management.ecust.Entity;
 
 /**
  * Created by Jonathon.Wang on 2017/3/12.
@@ -32,11 +32,11 @@ public class BookEntity {
         return bookAuthor;
     }
 
-    public String getBookPublished(String bookPublished) {
+    public String getBookPublished() {
         return this.bookPublished;
     }
 
-    public int getPublishYear(int publishYear) {
+    public int getPublishYear() {
         return this.publishYear;
     }
 

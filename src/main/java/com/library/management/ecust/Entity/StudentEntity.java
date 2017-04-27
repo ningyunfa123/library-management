@@ -1,4 +1,4 @@
-package ecust.Entity;
+package com.library.management.ecust.Entity;
 
 /**
  * Created by Jonathon.Wang on 2017/3/12.

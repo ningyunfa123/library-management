@@ -1,9 +1,9 @@
-package cn.ecust.management.library.DAO;
+package com.library.management.cn.ecust.management.library.DAO;
 
 /**
  * Created by Jonathon.Wang on 2017/3/12.
  */
-public class studentDAO {
+public class StudentDAO {
     private int stuid;
     private String stuName;
     private String stuGender;
